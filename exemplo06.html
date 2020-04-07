@@ -1,0 +1,48 @@
+  <!Doctype html>
+  <html lang="pt-br" dir="ltr">
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1">
+     <title>ABSTRACT CSS</title>
+
+     <style media="screen">
+
+     body{
+        background-color: #515c62;
+        /*background-image: linear-gradient(pos em graus,cor1 0% ,cor2 0%);*/
+        background-image: linear-gradient(90deg, red 10%, green 20%, blue 50%, yellow 60%);
+     }
+
+       #elemento1{
+         text-align: center;
+
+         border-style: solid;
+         border-width: 3px;
+
+         width: 150px;
+         padding:30px;
+         margin: auto;
+         /*box-shadow: pos-horiz pos-vert granularidade cor;*/
+         box-shadow: 2px 2px 3px #fff;
+       }
+       #elemento2{
+         text-align: center;
+         border: 1px solid #0000ff;
+         width: 150px;
+
+       }
+     </style>
+
+   </head>
+   <body>
+     <div id="container">
+
+        <p id="elemento1">EXEMPLO-1</p>
+
+        <div id="elemento2">
+          EXEMPLO-2
+        </div>
+
+     </div>
+   </body>
+</html>
