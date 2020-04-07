@@ -1,0 +1,41 @@
+  <!Doctype html>
+  <html lang="pt-br" dir="ltr">
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1">
+     <title>BOX-MODEL-BOX-SIZING</title>
+
+     <style media="screen">
+
+      #elemento1,#elemento2{
+        box-sizing: border-box;
+      }
+
+       #elemento1{
+         text-align: center;
+         border: 1px solid #ff0000;
+         width: 150px;
+         padding-left: 20px;
+         padding-right: 20px;
+       }
+
+       #elemento2{
+         text-align: center;
+         border: 1px solid #0000ff;
+         width: 150px;
+       }
+     </style>
+
+   </head>
+   <body>
+     <div id="container">
+
+        <p id="elemento1">EXEMPLO-1</p>
+        <hr>
+        <div id="elemento2">
+          EXEMPLO-2
+        </div>
+
+     </div>
+   </body>
+</html>
